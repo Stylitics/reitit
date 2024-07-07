@@ -1,4 +1,4 @@
-(defproject metosin/reitit-ring "0.7.1"
+(defproject metosin/reitit-ring "0.7.1-patched-graal"
   :description "Reitit: Ring routing"
   :url "https://github.com/metosin/reitit"
   :license {:name "Eclipse Public License"
@@ -10,4 +10,4 @@
   :parent-project {:path "../../project.clj"
                    :inherit [:deploy-repositories :managed-dependencies]}
   :dependencies [[metosin/reitit-core]
-                 [ring/ring-core]])
+                 [ring/ring-core "1.12.2-patched-graal"]])
