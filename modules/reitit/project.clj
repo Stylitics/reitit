@@ -1,6 +1,10 @@
-(defproject metosin/reitit "0.7.1-patched-graal"
+(defproject net.clojars.stylitics-graal/reitit "0.7.1-patched-graal"
   :description "Snappy data-driven router for Clojure(Script)"
   :url "https://github.com/metosin/reitit"
+  :deploy-repositories [["clojars" {:url "https://repo.clojars.org"
+                                    :username :env/clojars_username
+                                    :password :env/clojars_password
+                                    :sign-releases false}]]
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :scm {:name "git"

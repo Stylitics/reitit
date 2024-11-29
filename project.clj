@@ -1,4 +1,4 @@
-(defproject metosin/reitit-parent "0.7.1"
+(defproject net.clojars.stylitics-graal/reitit-parent "0.7.1"
   :description "Snappy data-driven router for Clojure(Script)"
   :url "https://github.com/metosin/reitit"
   :license {:name "Eclipse Public License"
@@ -6,7 +6,8 @@
   :test-paths ["test/clj" "test/cljc"]
   :deploy-repositories [["clojars" {:url "https://repo.clojars.org"
                                     :username :env/clojars_username
-                                    :password :env/clojars_password}]]
+                                    :password :env/clojars_password
+                                    :sign-releases false}]]
   :repositories [["clojars" {:url "https://repo.clojars.org"
                              :username :env/clojars_username
                              :password :env/clojars_password}]]
